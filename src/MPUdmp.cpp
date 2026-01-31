@@ -13,11 +13,8 @@
 #include "MPU.hpp"
 
 /*! MPU Driver namespace */
-namespace mpud
-{
+namespace mpud {
 /*! DMP namespace */
-namespace dmp
-{
-}  // namespace dmp
+namespace dmp {} // namespace dmp
 
-}  // namespace mpud
+} // namespace mpud

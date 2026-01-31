@@ -20,20 +20,16 @@ menuconfig -> components -> MPU driver, to compile the DMP source code''
 #endif
 
 /*! MPU Driver namespace */
-namespace mpud
-{
+namespace mpud {
 /*! DMP namespace */
-namespace dmp
-{
+namespace dmp {
 /*! MPU with DMP interface */
-class MPUdmp : public mpud::MPU
-{
-};
+class MPUdmp : public mpud::MPU {};
 
 typedef MPUdmp MPUdmp_t;
 
-}  // namespace dmp
+} // namespace dmp
 
-}  // namespace mpud
+} // namespace mpud
 
 #endif /* end of include guard: _MPU_DMP_HPP_ */
